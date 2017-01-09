@@ -29,7 +29,7 @@
 
     <artifactId>temp-delete-me</artifactId>
     <packaging>jar</packaging>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <description>For test purposes only</description>
     <dependencies>
         <dependency>

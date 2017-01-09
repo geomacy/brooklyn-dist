@@ -22,10 +22,10 @@ import org.apache.brooklyn.entity.software.base.EmptySoftwareProcessImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class VacantSoftwareProcessImpl extends EmptySoftwareProcessImpl implements VacantSoftwareProcess {
+public class VoidSoftwareProcessImpl extends EmptySoftwareProcessImpl implements VoidSoftwareProcess {
 
 
-    private static final Logger LOG = LoggerFactory.getLogger(VacantSoftwareProcessImpl.class);
+    private static final Logger LOG = LoggerFactory.getLogger(VoidSoftwareProcessImpl.class);
 
     @Override
     protected void postStart() {

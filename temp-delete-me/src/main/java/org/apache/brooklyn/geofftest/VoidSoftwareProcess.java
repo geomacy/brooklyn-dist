@@ -23,8 +23,8 @@ import org.apache.brooklyn.config.ConfigKey;
 import org.apache.brooklyn.core.config.ConfigKeys;
 import org.apache.brooklyn.entity.software.base.EmptySoftwareProcess;
 
-@ImplementedBy(VacantSoftwareProcessImpl.class)
-public interface VacantSoftwareProcess extends EmptySoftwareProcess {
+@ImplementedBy(VoidSoftwareProcessImpl.class)
+public interface VoidSoftwareProcess extends EmptySoftwareProcess {
 
     ConfigKey<String> SOME_RANDOM_CONFIG = ConfigKeys.newStringConfigKey("some.random.config", "for test purposes",
         "expect changes");
